@@ -1,3 +1,8 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { SignaldemonstrationComponent } from './signaldemonstration/signaldemonstration.component';
+export const routes: Routes = [
+  {
+    path: 'signal',
+    component: SignaldemonstrationComponent,
+  },
+];
