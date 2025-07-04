@@ -1,0 +1,23 @@
+<p>pipesdemonstration works!</p>
+<div>
+  {{ price | currency }}
+</div>
+
+<div>{{ date | date : "fullDate" | uppercase }}</div>
+<div>
+  {{ myObject | json }}
+</div>
+
+<div>
+  {{ myArray | slice : 0 : 2 }}
+</div>
+<div>
+  {{ myString | slice : 0 : 2 }}
+</div>
+<div>
+  {{ prom | async }}
+</div>
+<div>custom pipe value:</div>
+<div>
+  {{ myArray | custompipe : 2 }}
+</div>
