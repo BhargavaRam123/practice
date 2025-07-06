@@ -4,6 +4,7 @@ import { PipesdemonstrationComponent } from './pipesdemonstration/pipesdemonstra
 import { ObservablesComponent } from './observables/observables.component';
 import { parentComponent } from './lifecyclehooks/lifecyclehooks.component';
 import { ParentComponentngoninit } from './ngoninit/ngoninit.component';
+import { ExampleComponent } from './ngdocheck/ngdocheck.component';
 export const routes: Routes = [
   {
     path: 'signal',
@@ -24,5 +25,9 @@ export const routes: Routes = [
   {
     path: 'ngoninit',
     component: ParentComponentngoninit,
+  },
+  {
+    path: 'ngdocheck',
+    component: ExampleComponent,
   },
 ];
